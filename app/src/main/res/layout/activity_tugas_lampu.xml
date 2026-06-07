@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tugas 1"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imgLampu"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_lamp_light_off" />
+
+    <Button
+        android:id="@+id/btnLampu"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="TURN ON"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Warna Lampu Aktif Ketika Lampu Nyala"
+        android:layout_marginTop="15dp" />
+
+    <RadioGroup
+        android:id="@+id/rgWarna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbPutih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Putih"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rbKuning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuning" />
+
+        <RadioButton
+            android:id="@+id/rbBiru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biru" />
+    </RadioGroup>
+
+</LinearLayout>
